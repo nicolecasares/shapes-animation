@@ -17,7 +17,7 @@ div {
       transform: rotate(45deg);
     }
     50% {
-      border-radius: 20% 50% 0 0;
+      border-radius: 20% 50% 25% 0;
       background: indianred;
       transform: rotate(90deg);
     }
@@ -27,8 +27,8 @@ div {
       transform: rotate(135deg);
     }
     100% {
-      border-radius: 0 00% 60% 0;
-      background: darksalmon;
+      border-radius: 0 15% 60% 0;
+      background: yellow;
       transform: rotate(180deg);
     }
 }
