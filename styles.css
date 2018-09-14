@@ -1,0 +1,34 @@
+div {
+  width: 200px;
+  height: 200px;
+  background-color: coral;
+  -webkit-animation: squareToCircle 2s 1s infinite alternate;
+}
+
+@-webkit-keyframes squareToCircle {
+    0% {
+      border-radius: 0 0 0 0;
+      background: red;
+      transform: rotate(0deg);
+    }
+    25% {
+      border-radius: 0 30% 0 0;
+      background: blue;
+      transform: rotate(45deg);
+    }
+    50% {
+      border-radius: 20% 50% 0 0;
+      background: indianred;
+      transform: rotate(90deg);
+    }
+    75% {
+      border-radius: 50% 50% 50% 0;
+      background: green;
+      transform: rotate(135deg);
+    }
+    100% {
+      border-radius: 0 00% 60% 0;
+      background: darksalmon;
+      transform: rotate(180deg);
+    }
+}
